@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #F9F9F9;
+}
+#nav{
+	background-color: #A5A58D;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+#box{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cardContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#nombreCardContent{
+	display: flex;
+	justify-content: center;
+}
+#clima{
+	display: flex;
+	justify-content: center;
+	margin-top: .5em;
+}
+.info_clima{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gridItem{
+	display: flex;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	padding-bottom: 1em;
+}
+.listItem{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.loader{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
